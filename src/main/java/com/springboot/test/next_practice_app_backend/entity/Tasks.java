@@ -30,7 +30,7 @@ public class Tasks {
 
     /** タスクの分類 */
     @Column
-    private String[] type;
+    private Short[] type;
 
     /** タスクの詳細説明 */
     @Column

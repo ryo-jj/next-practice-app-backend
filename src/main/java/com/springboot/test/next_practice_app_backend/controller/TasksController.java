@@ -27,8 +27,8 @@ public class TasksController {
      *
      * @return 登録済みの全タスク情報のリスト
      */
-    @GetMapping
-    public List<Tasks> getAllTasks() {
+    @GetMapping("/hello")
+    public List<Tasks> getTasks() {
         return tasksRepository.findAll();
     }
 
